@@ -8,59 +8,226 @@ filterList :
   - filterType : development
     filterTitle : Development
     
+  - filterType : other
+    filterTitle : Other
+    
 portfolioItem :
-  - types : development
-    icon : tf-ion-android-search
-    URL : #
-    title : Sound system
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: true
-    has_github: true
+  # - types : other
+  #   image: images/blog/blog-post-3.jpg
+  #   title : Certificed Scrum Master
+  #   description : I am a Scrum Alliance Certified Scrum Master!
+  #   has_more: false
+
+  # - types: ml
+  #   title: Knowledge Distillation in Fully-Convolutional Networks
+  #   description: 
+  #   github: https://github.com/anujkhare/iregnet
     
-  - types : ml development
-    icon : tf-ion-android-search
-    URL : #
-    title : Stationary Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: true
-    has_github: true
+  # - types: ml development soroco
+  #   title: Optical Character Recognition
+  #   description:
+  #   has_more: true
+
+  - types: ml soroco
+    title: Clustering of screenshots
+    description: >-
+                    I led the development of the pipeline to cluster similar looking screenshots (those that contain the same
+                    window / page).
     
-  - types : ml photography
-    icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: true
-    has_github: true
+    # has_more: true
     
-  - types : ml photography
-    icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: false
-    has_github: true
+  - types: development soroco
+    title: Python abstractions for data manipulation in Excel documents
+    description: >-
+                    I developed a Python abstraction for efficient data manipulation in Excel sheets.
+                    This provides a grammar to easily extract tables of different formats from anywhere in the Excel
+                    sheets, the flexibility of the python library "pandas" for table manipulation, while at the same time allowing
+                    the user to write values to the Excel sheets in-place while maintaining the integrity of all the formulae.
+    # has_more: true
     
-  - types : ml photography
-    icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: false
-    has_github: true
+  # - types: ml development soroco
+  #   title: Extracting structured information from scanned documents
+  #   description:
+  #   has_more: true
     
-  - types : ml photography
-    icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: false
-    has_github: true
+  # - types: other development
+  #   title: Unit testing guidelines for Agile Development
+  #   description:
+  #   github: https://github.com/anujkhare/raft-python
     
-  - types : ml photography
-    icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    has_more: false
-    has_github: true
+  - types: ml
+    title: Google Summer of Code - R package for interval regression
+    description: >-
+                    I developed the first R package for interval regression with elastic net penalty
+                    and a coordinate descent solver supporting logistic, Gaussian, and Weibull losses.
+                    I co-Mentored a GSoC 2017 project which continued this work.
+
+    github: https://github.com/anujkhare/iregnet
+
+  # - types: ml
+  #   title: Kaggle - Airbus Ship Detection
+  #   description:
+  #   github: https://github.com/anujkhare/iregnet
+    
+    
+  # - types: development
+  #   title: Implementing RAFT in Python
+  #   description: 
+  #   github: https://github.com/anujkhare/raft-python
+    
+  # - types: ml
+  #   title: Sequence prediction with disentangling
+  #   description: >-
+  #                   We developed a method for sequence prediction in images by separately learning
+  #                   the object pose and transformations using Recurrent Neural Networks and Gated
+  #                   Autoencoder pyramids
+  #   github: https://github.com/anujkhare/deepRotator/tree/seq
+
+  - types: development
+    title: Graph based relationship queries
+    description: >-
+                    I extracted rich data about around 13,000 people, companies, and universities from a start-up listing website.
+                    I then built a custom graph query layer over Redis to store the data and execute queries
+                    involving complex relationships between the entities. For instance, I was able to execute queries of the form
+                    "People living in SF who previously worked at X and studied at Y".
+    github: https://github.com/anujkhare/graphKV
+
+  - types: development other
+    title: IoT based solution for smart home gardens
+    description: >-
+                    My team won the first position in the MyWired Startup Mechanics Open Hackathon 2016, Bangalore.
+                    We developed an IoT based solution for extensible indoor gardens. It would water your plants automatically
+                    when needed and send real-time statistics about soil, sunlight, and plant health direct to your mobile phones!
+
+  # - types: development
+  #   title: Evince/poppler
+  #   description: 
+  #   github: https://github.com/anujkhare/evince
+
+  # - types: ml
+  #   title: Conceptors related work
+  #   description: 
+  #   github: https://github.com/anujkhare/conceptor-eq
+
+  - types: ml
+    title: Learning applications at Jaaga
+    description: >-
+                    I volunteered at a non-profit, Jaaga, for developing applications to teach under-privileged children
+                    basic numeracy and language skills. While there, I worked on a chat-bot back-end for an Android application
+                    being developed towards this goal. I also experimented with other ideas for interactive learning applications, like
+                    generating natural language questions just from images to be used to supplement the learning from textbooks and
+                    generating fill-in-the-blanks questions from book sentences.
+    github: https://github.com/anujkhare/learning
+
+  # - types: development
+  #   title: Quiz webapp
+  #   description: 
+  #   github: https://github.com/anujkhare/demo-quiz
+
+  # - types: development
+  #   title: Never forget your name
+  #   description: 
+  #   github: https://github.com/anujkhare/reminder
+
+  # - types: ml
+  #   title: Tennis bat recognition
+  #   description: 
+  #   github: https://github.com/anujkhare/darknet-tennis
+
+  - types: ml
+    title: Hidden Markov Models from scratch in python
+    description: >-
+                    I implemented Hidden Markov Models in python from scratch - including forwards-backwards algorithm and Viterbi decoding
+                    I trained them for classification of emotions in speech samples from the Berlin emotion database.
+    # github:
+
+  # - types: ml
+  #   title: House price prediction - that competition
+  #   description: 
+  #   github: https://github.com/anujkhare/hackathon-ml
+
+  # - types: ml
+  #   title: Xerox XCRI
+  #   description: 
+  #   github: https://github.com/anujkhare/xerox
+
+  - types: ml development
+    title: Parallel K-means - Intel HIPC
+    description: I implemented a parallel K-means clustering algorithm for clustering of 40,000 data points in 100 dimensions using C++ and OpenMP.
+    github: https://github.com/anujkhare/hipc_intel
+
+  # - types: ml
+  #   title: GS Quantify
+  #   description: 
+  #   github: https://github.com/anujkhare/quantify15
+
+  # - types: ml
+  #   title: Bayes factor report - Advanced stats
+  #   description: 
+  #   github:
+
+  # - types: development
+  #   title: Sudoku application
+  #   description: 
+  #   github:
+
+  # - types: development
+  #   title: Travian Web Automation
+  #   description: 
+  #   github:
+
+  # - types: development
+  #   title: Cows and bulls GUI
+  #   description: 
+  #   github:
+
+  # - types: development
+  #   title: Graph application
+  #   description: 
+  #   github:
+
+
+  # - types: ml
+  #   title: Statistics labs
+  #   description: 
+  #   github:
+
+  # - types: ml
+  #   title: React project - some game that I worked on
+  #   description: 
+  #   github:
+
+  # - types: ml
+  #   title: Networks lab  client-server demo
+  #   description: 
+  #   github: https://github.com/anujkhare/Networks4
+
+  # - types: ml
+  #   title: Parallel computing labs
+  #   description: 
+  #   github:
+
+  # - types: ml
+  #   title: Monte Carlo labs
+  #   description: 
+  #   github:
+
+  # - types: ml
+  #   title: Matrix computation labs
+  #   description: 
+  #   github:
+
+  # - types: ml
+  #   title: DB Lab  book sharing portal
+  #   description: 
+  #   github: https://github.com/anujkhare/DB-Lab
+
+  # - types: ml
+  #   title: Networks lab  Mini-net - packet sniffing
+  #   description: 
+  #   github: https://github.com/anujkhare/Networks3
+
+  # - types: ml
+  #   title: RGSoft website (Old)
+  #   description: 
+  #   github: https://github.com/anujkhare/web-rsoft
