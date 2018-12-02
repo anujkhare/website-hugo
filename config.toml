@@ -37,16 +37,17 @@ custom_css = ["css/custom.css"]
     # social Icons
     [params.socialmedia]
         [[params.socialmedia.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        
-        [[params.socialmedia.socialIcon]]
         icon = "tf-ion-email"
+        url = "mailto:khareanuj18@gmail.com"
         
         [[params.socialmedia.socialIcon]]
         icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/in/anuj-khare-72942498/"
         
         [[params.socialmedia.socialIcon]]
         icon = "tf-ion-social-github"
-        
-        # [[params.socialmedia.socialIcon]]
-        # icon = "tf-ion-social-pinterest-outline"
+        url = "https://github.com/anujkhare/"
+
+        [[params.socialmedia.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/anujk18"
