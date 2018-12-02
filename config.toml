@@ -6,39 +6,14 @@ theme = "meghna-hugo"
 # Menu
 [menu]
     [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
-
-    [[menu.nav]]
-    name = "Service"
-    URL = "services"
-    weight = 3
-
-    [[menu.nav]]
     name = "Portfolio"
     URL = "portfolio"
     weight = 4
 
     [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
-
-    [[menu.nav]]
     name = "Blog"
     URL = "blog"
     weight = 7
-
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-us"
-    weight = 8
 
 # Site params
 [params]
@@ -50,69 +25,28 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    # bgImage = "images/slider/hero-area.jpg"
+    # icon = "tf-ion-play"
+    heading = "Anuj Khare"
+    content = "I am a Machine Learning engineer and a kick-ass software developer. I am enthusiastic about yoga, travel, and music. This is my space!"
     btn = true
-    btnText="Explore Us"
-    btnURL="#services"
+    btnText="Explore My Work"
+    btnURL="#portfolio"
 
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
-
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
     
-    # footer
-    [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
-
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        
-        [[params.footer.socialIcon]]
+    # social Icons
+    [params.socialmedia]
+        [[params.socialmedia.socialIcon]]
         icon = "tf-ion-social-twitter"
         
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
+        [[params.socialmedia.socialIcon]]
+        icon = "tf-ion-email"
         
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        
-        [[params.footer.socialIcon]]
+        [[params.socialmedia.socialIcon]]
         icon = "tf-ion-social-linkedin"
         
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
+        [[params.socialmedia.socialIcon]]
+        icon = "tf-ion-social-github"
         
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
+        # [[params.socialmedia.socialIcon]]
+        # icon = "tf-ion-social-pinterest-outline"
